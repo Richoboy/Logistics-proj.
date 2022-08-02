@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+ 
+  box-sizing: 0px;
+  
+}
+
+.App {
+  width: 100%,
+}
+
+.body1 {
+  width: 100%;
+
+  .page {
+    .image {
+      font-family: sans-serif;
+      background: url(./image/truck.jpg) ;
+      background-size: cover;
+      height: 500px;
+      width: 100%;
+      img{
+        width: 100%;
+        opacity: 5px;
+      }
+      .writing {
+        // margin-top: 150px;
+        // margin-left: 120px;
+        font-size: 45px;
+        font: weight 800;
+        top: 50px; 
+      }
+      .work {
+        font-size: 35px;
+        margin-left: 100px;
+        padding-top: 125px;
+        font-weight: 450;
+       
+      }
+    }
+    
+    .part {
+      text-align: justify;
+      align-items: center;
+      margin-left: 34rem;
+      // width: 868px;
+      height: 307px;
+ 
+    }
+  
+    .pics {
+      display: flex;
+      justify-content: space-between;
+      height: 50px;
+      margin-left: 120px;
+      margin-right: 120px;
+      
+
+
+      
+      img {
+        width: 30%;
+        height: 30vh;
+      }
+    }
+
+    .pics2 {
+      display: flex;
+      justify-content: space-between;
+      height: 50px;
+      margin-top: 180px;
+      margin-left: 120px;
+      margin-right: 120px;
+      
+      
+      img {
+        width: 50%;
+        height: 30vh;
+      }
+
+      .phone {
+        margin-right: 50px;
+        padding-bottom: 100px;
+      }
+    }
+    
+  
+    .load {
+      margin-left: 120px;
+      margin-top: 230px;
+      margin-bottom: 190px;
+
+      h5 {
+        font-weight: 600;
+      }
+    }
+
+
+  
+    footer {
+      height: 120px;
+      background-color: blue;
+      width: 100%;
+    }
+  }
+  
+}

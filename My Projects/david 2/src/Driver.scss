@@ -1,0 +1,210 @@
+* {
+    box-sizing: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Drive {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(driv.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+    height: 41.125rem;
+
+    .Drive-with {
+        margin-top: 12.5rem;
+        color: white;
+
+        h1 {
+            font-size: 3.8125rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+
+        span {
+            font-weight: bold;
+        }
+    }
+
+    .form {
+        margin-top: 3.5rem;
+        background-color: white;
+        height: 31.9375rem;
+        width: 21.4375rem;
+
+
+        h3 {
+            padding-top: 1.4375rem;
+            padding-bottom: 0.625rem;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        .p {
+            padding-top: 1.5rem;
+            padding-bottom: 0.625rem;
+            text-align: center;
+        }
+
+        .signup {
+            // background-color: white;
+
+            p {
+                padding-bottom: 1rem;
+
+                text {
+                    margin-left: 1.25rem;
+                    font-size: 0.75rem;
+                }
+
+                label {
+                    margin-left: 1.25rem;
+
+                    span {
+                        color: gray;
+                    }
+                }
+
+                input {
+                    margin-left: 1.25rem;
+                    width: 17.1875rem;
+                    border-radius: 0.5rem;
+                    border: 1px solid #646464;
+                    padding-top: 0.75rem;  // 
+                }
+            }
+
+            .form-items {
+                padding: 0.625rem;
+            }
+        }
+
+        button {
+            margin-top: 1.359375rem;
+            width: 20.9375rem;
+            margin-left: 0.3125rem;
+            padding-top: 0.625rem;
+            padding-bottom: 0.625rem;
+            border-radius: 0.9375rem;
+            border: none;
+            background-color: rgba(22, 91, 155, 1);
+            font-size: 0.875rem;
+            color: white;
+        }
+    }
+}
+
+.why {
+    .why-dropple {
+        text-align: center;
+        margin-top: 4.375rem;
+        font-size: 2.1875rem;
+    }
+
+    .why-grid {
+        margin-top: 1.785rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        // margin-left: 120px;
+        .lp {
+            h5 {
+                font-size: 1.5rem;
+            }
+
+            margin-left: 4.9375rem;
+
+            .l {
+                padding-bottom: 3.125rem;
+            }
+
+            p {
+                padding-bottom: 1.25rem;
+            }
+        }
+
+        .grid-box {
+            height: 18.75rem;
+            width: 15.625rem;
+            border: black 1px solid;
+            margin-left: 5.1875rem;
+        }
+    }
+
+    fieldset {
+        width: 58.96875rem;
+        height: 44.9375rem;
+        margin-left: 10.3125rem;
+        margin-top: 6rem;
+
+        .QA-t {
+            margin-left: 4.78125rem;
+            margin-top: 9rem;
+
+            p {
+                padding-bottom: 0.4375rem;
+                padding-top: 0.4375rem;
+            }
+
+            h6 {
+                font-size: 20px;
+                color: #165B9B;
+            }
+        }
+    }
+
+    button {
+        margin-left: 39.1%;
+        font-size: 14px;
+        padding-top: 0.96875rem;
+        padding-left: 4.4375rem;
+        padding-right: 4.4375rem;
+        background: #165B9B;
+        color: white;
+        padding-bottom: 0.96875rem;
+        border: none;
+        border-radius: 1rem;
+        margin-top: 1.75rem;
+    }
+
+    footer {
+        text-align: center;
+
+        p {
+            font-weight: 500;
+            font-size: 0.875rem;
+            margin-top: 4rem;
+
+            span {
+                color: #165B9B;
+                ;
+            }
+        }
+
+        h6 {
+            font-size: 1.25rem;
+            margin-top: 0.625rem;
+        }
+
+        select {
+            width: 9.375rem;
+            height: 1.0625rem;
+            color: #165B9B;
+            border: 1px solid #165B9B;
+            border-radius: 1rem;
+            padding: 0.625rem 1rem 0.625rem 1rem;
+            height: 3rem;
+            margin-top: 2.873rem;
+        }
+
+        .footer-blue {
+            height: 11rem;
+            width: 100%;
+            background-color: rgba(22, 91, 155, 1);
+            margin-top: 4.125rem;
+        }
+    }
+}
